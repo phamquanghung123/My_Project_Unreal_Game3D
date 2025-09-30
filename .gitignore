@@ -12,3 +12,11 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+# Ignore other plugins
+Plugins/*
+# But keep Inventory
+!Plugins/Inventory/
+
+/Source/
+
+!Plugins/Inventory/Source/
